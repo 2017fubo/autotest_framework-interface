@@ -1,18 +1,18 @@
 # auto_test_framework-interface-web-
 一个轻量级的自动化测试框架，接口，web无缝对接或者单独使用
 
-│  myapp.log    //执行日志
-│  Run_testcase.py  //主程序
-│      
-├─config                //配置相关
-│  │  configdb.py
-│  │  configdb_ssh.py
-│  │  configrunmode.py
-│  │  configtestobject.py
-│  │  database_config.ini
-│  │  database_config_ssh.ini
-│  │  globalconfig.py
-│  │  runmode_config.ini
+myapp.log    //执行日志
+Run_testcase.py  //主程序
+
+├─config//配置相关
+        configdb.py
+        configdb_ssh.py
+        configrunmode.py
+││  configtestobject.py
+││  database_config.ini
+││  database_config_ssh.ini
+││  globalconfig.py
+││  runmode_config.ini
 │  │  testobject_config.ini
 │  │  __init__.py
 │  │  
